@@ -7,6 +7,7 @@
 This is a simple application built as part of the application process for the Full Stack Developer position at Mojo Web Technology. The objective of this project is to create an application that interacts with the Facebook Pages through the Facebook Graph API.
 
 
+<img src="https://github.com/03prashantk/MoboWebTechnologyAssignment/blob/main/src/images/moboSS.gif" alt="noo" width="100%" />
 
 ## Features
 
