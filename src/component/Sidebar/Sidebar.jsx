@@ -7,6 +7,7 @@ const Sidebar = ({ sendPageInfo }) => {
     const [selectedPage, setSelectedPage] = useState('');
     const [userIDInput, setUserIDInput] = useState('');
     const [accessTokenInput, setAccessTokenInput] = useState('');
+    const [pageAccessToken, setPageAccessToken] = useState('');
     const [APIPrams, setAPIPrams] = useState('');
 
     const fetchPages = async () => {
@@ -29,6 +30,10 @@ const Sidebar = ({ sendPageInfo }) => {
 
     const handlePageSelect = (event) => {
         setSelectedPage(event.target.value);
+        // set page access token
+        const page = pages.find((page) => page.id === event.target.value);
+        setPageAccessToken(page.access_token);
+        
     };
 
     const renderPageOptions = () => {
@@ -88,11 +93,15 @@ const Sidebar = ({ sendPageInfo }) => {
         }
 
         try {
-            const response = await fetch(`https://graph.facebook.com/v19.0/${selectedPage}/${APIPrams}?access_token=${accessTokenInput}`);
+            const response = await fetch(`https://graph.facebook.com/v19.0/${selectedPage}/${APIPrams}?access_token=${pageAccessToken}`);
+
+
             if (!response.ok) {
+                alert('Maybe you are using User Token to fatch Pages Data, Please use Page Token');
                 throw new Error('Network response was not ok');
             }
             const data = await response.json();
+
             setPageInfo(data);
             console.log('Page Data:', data);
 
@@ -135,15 +144,21 @@ const Sidebar = ({ sendPageInfo }) => {
 
             <div className="response">
                 <h3>Pages</h3>
+                
                 <select
                     name="pages"
                     id="pages"
                     value={selectedPage}
                     onChange={handlePageSelect}
                 >
+                    
                     <option value="">Select Page</option>
                     {renderPageOptions()}
                 </select>
+
+                <input type="text" placeholder="Page Access token" 
+                value={pageAccessToken} readOnly />
+
             </div>
 
             <div className="form_select">

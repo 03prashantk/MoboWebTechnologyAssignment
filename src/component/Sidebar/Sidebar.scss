@@ -1,7 +1,7 @@
 .Sidebar {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.7rem 0.5rem;
   background: rgba(69, 69, 69, 0.21);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -9,7 +9,7 @@
   -webkit-backdrop-filter: blur(5.8px);
   border: 1px solid rgba(230, 230, 230, 0.218);
   height: calc(75vh);
-  width: 25%;
+  width: 26%;
 
   .user h3,
   .response h3,
@@ -19,6 +19,21 @@
     margin: 1rem 0rem 0;
   }
   .response {
+    input{
+      width: 100%;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem 0;
+      border: none;
+      font-size: 0.7rem;
+      background: rgba(69, 69, 69, 0.434);
+      border-radius: 8px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5.8px);
+      color: #fff;
+      &:focus {
+        outline: none;
+      }
+    }
     select {
       padding: 0.5rem 1rem;
       margin: 0.5rem 0;
@@ -97,12 +112,12 @@
       justify-content: center;
       margin: 10px 0;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 5px;
       button {
         background: rgba(40, 40, 40, 0.29);
         border-radius: 8px;
         width: fit-content;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: normal;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(7.9px);

@@ -6,8 +6,8 @@ const Display = ({ value }) => {
 
     return (
         <div className="Display">
-            <h3>Display</h3>
-            <pre>{displayValue}</pre>
+            <h3>Outputs</h3>
+            {displayValue && <pre>{displayValue}</pre>}
         </div>
     );
 }
