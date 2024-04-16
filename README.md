@@ -32,8 +32,8 @@ This is a simple application built as part of the application process for the Fu
 
 ## Submission Details
 
-- **Live URL**: [Provide Live URL here]
-- **GitHub Repository**: [Provide GitHub Repository link here]
+- **Live URL**: https://enally.in/MoboWebTechnologyAssignment/
+- **GitHub Repository**: https://github.com/03prashantk/MoboWebTechnologyAssignment
 
 ## Deadline
 
