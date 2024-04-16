@@ -1,0 +1,54 @@
+nav {
+  background: rgba(69, 69, 69, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(230, 230, 230, 0.218);
+  margin: 3% 3% 0 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+
+  h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        list-style: none;
+        li {
+            margin: 0 1rem;
+            
+            a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            &:hover {
+                color: #f1f1f1;
+            }
+            }
+        }
+    }
+    button{
+        background: #fff;
+        color: #000;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+            background: #f1f1f1;
+        }
+    }
+  }
+}

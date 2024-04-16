@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("images/wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: calc(100vh - 2.3rem);
+  padding: 0 10%;
+  .container {
+    margin: 3% 3% 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  p{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+  }
+}
+
+* {
+  scrollbar-width: thin;
+// facebook dark 
+    scrollbar-color: #333 rgba(69, 69, 69, 0.21);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+
+    background: #333;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(69, 69, 69, 0.21);
+  border-radius: 20px;
+  border: 3px solid #000;
+}
