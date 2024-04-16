@@ -24,7 +24,8 @@ function App() {
           <Display value={pageInfo} />
         </div>
       </div>
-      <p> Some of the endpoints are not working because of the access token & restrictions. </p>
+      <p> Some of the endpoints are not working because of the access token & restrictions. <br />
+      Mobo Web Technology - Assignment</p>
     </>
   
   );
