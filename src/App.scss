@@ -16,13 +16,24 @@ body {
   padding: 0 10%;
   @media screen and (max-width: 768px){
     padding: 0 5%;
+    height: 100%;
     
   }
+// for medium screen size
+  @media screen and (max-width: 1024px){
+    padding: 0 3%;
+  }
+
   .container {
     margin: 3% 3% 0 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 768px){
+      flex-direction: column;
+    }
+    // medium screen
+
   }
   p{
     text-align: center;

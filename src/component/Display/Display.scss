@@ -12,6 +12,18 @@
   height: calc(75vh);
   width: 70%;
   padding: 20px 10px;
+  
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin-top: 1rem;
+    
+  }
+
+  // medium
+  @media screen and (max-width: 1024px) {
+    width: 68%;
+  }
+
   h3{
     color: #fff;
     font-size: 1rem;

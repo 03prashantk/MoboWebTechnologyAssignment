@@ -16,7 +16,7 @@ const Navbar = () => {
             <h1>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" width="25px" alt="" />
                 facebook
-                </h1>
+            </h1>
 
             <div className="menu">
                 <ul>
@@ -34,8 +34,10 @@ const Navbar = () => {
                     </li>
                 </ul>
 
-                <button type="button" onClick={TogglePopUp}>Read Me</button>
-                <button className="btn" onClick={openWebpage}>Website</button>
+                <div className="buttons">
+                    <button type="button" onClick={TogglePopUp}>Read Me</button>
+                    <button className="btn" onClick={openWebpage}>Website</button>
+                </div>
 
             </div>
 
