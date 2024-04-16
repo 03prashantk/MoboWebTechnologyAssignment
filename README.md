@@ -2,61 +2,30 @@
 
 
 
-![](https://komarev.com/ghpvc/?username=03prashantk&color=ff0000&label=Page View) ![](https://hit.yhype.me/github/profile?user_id=43730425)
+## Facebook Pages Insights Application
 
+### Overview
+This project is a simple web application developed as part of an assignment for the placement process at Mobo Web Technology. The objective of the project is to create an application that interacts with Facebook Pages through the Facebook Graph API. Users can fetch and display a list of Facebook Pages associated with their account, apply date filters for insights, and retrieve statistics such as Page Likes, Reach, and Impressions.
 
+### Live Demo
+You can access the live demo of this project at [Mobo Web Technology Assignment](https://mobowebtechnologyassignment.onrender.com/).
 
+### Features
+1. **Fetch Facebook Pages:** Users can fetch and display a list of Facebook Pages associated with their account.
+2. **Date Filters:** Users can apply date filters for insights, specifying the "Since" and "Until" dates.
+3. **Insights Statistics:** Users can retrieve statistics such as Page Likes, Reach, and Impressions for the selected Page.
+4. **Automatic Redirection:** Upon completion of the assignment, the application automatically redirects users to the project in 5 seconds.
 
-# MOBO WEB Technology
+### Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Deployment:** Render (https://render.com/)
 
-### Facebook Pages Insights Application
+### How to Run
+1. Clone the repository to your local machine.
+2. Open the project directory in your code editor.
+3. Host the HTML, CSS, and JavaScript files on any web server or local server environment.
+4. Access the index.html file in your browser to view the application.
+5. You can also access the live demo at [Mobo Web Technology Assignment](https://mobowebtechnologyassignment.onrender.com/).
 
-## Overview
-
-This is a simple application built as part of the application process for the Full Stack Developer position at Mojo Web Technology. The objective of this project is to create an application that interacts with the Facebook Pages through the Facebook Graph API.
-
-## Features
-
-1. **Authentication**: The application connects with the Facebook API using OAuth authentication.
-2. **Fetch and Display Pages**: It fetches and displays a list of Facebook Pages associated with the user's account.
-3. **Insights Form**: Provides a basic form with the following features:
-   - Dropdown menu listing the available Pages.
-   - Date filters for "Since" and "Until".
-   - Button to retrieve Page insights statistics.
-4. **Insights Covered**: The insights retrieved include Page Likes, Reach, and Impressions.
-5. **Deployment**: The application is deployed on a free hosting service, and the live URL and GitHub repository link are provided.
-6. **Tech Stack**: Any tech stack can be used, and the submission should include the live URL and GitHub repository link.
-
-## Instructions for Running the Application
-
-1. **Installation**: Clone the repository to your local machine.
-
-~ git clone <repository_url>
-
-2. **Setup Facebook App**: Follow the provided links to create a Facebook App and establish authentication to connect with the Facebook API.
-3. **Environment Variables**: Set up environment variables for Facebook App credentials.
-4. **Install Dependencies**: Install the required dependencies by running:
-5. **Run the Application**: Start the development server by running:
-6. **Access the Application**: Access the application in your web browser at `http://localhost:3000`.
-
-## Submission Details
-
-- **Live URL**: [Provide Live URL here]
-- **GitHub Repository**: [Provide GitHub Repository link here]
-
-## Deadline
-
-Please submit the assignment before 15th April, 2024.
-
-## Evaluation
-
-- **Wakatime Plugin**: Ensure the Wakatime plugin is installed in your VS Code to enable evaluation of coding practices.
-- **External Help**: Using any external help from friends or AI models is strictly prohibited. If found, your application will be disqualified.
-
-## Contact Information
-
-For any queries or clarifications, please contact [Provide Contact Information].
-
----
-
-**Note**: This README file is a template and should be updated with the specific details of the project and assignment.
+### Additional Information
+This project is a part of the assignment for the Full Stack Developer position at Mobo Web Technology. For any inquiries or feedback, please contact [Mobo Web Technology](https://www.mobowebtech.com/).
