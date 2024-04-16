@@ -1,10 +1,12 @@
 # MOBO WEB Technology
 
-### Facebook Pages Insights Application
+### Facebook Pages Insights Application ![](https://komarev.com/ghpvc/?username=03prashantpk&color=ff0000&label=Views) ![](https://hit.yhype.me/github/profile?user_id=165763830)
 
 ## Overview
 
 This is a simple application built as part of the application process for the Full Stack Developer position at Mojo Web Technology. The objective of this project is to create an application that interacts with the Facebook Pages through the Facebook Graph API.
+
+
 
 ## Features
 
