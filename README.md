@@ -1,6 +1,6 @@
 # MOBO WEB Technology
 
-### Facebook Pages Insights Application ![](https://komarev.com/ghpvc/?username=03prashantpk&color=ff0000&label=Views) ![](https://hit.yhype.me/github/profile?user_id=165763830)
+### Facebook Pages Insights Application ![](https://komarev.com/ghpvc/?username=03prashantpk&color=ff0000&label=Views) ![](https://hit.yhype.me/github/profile?user_id=165763830) 
 
 ## Overview
 
